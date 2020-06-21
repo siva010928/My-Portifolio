@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portifolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/myportifolio.css">
+    <script src="https://use.fontawesome.com/3deb9850d2.js"></script>
+    <script type="text/javascript" src="js/myportifolio.js"></script>
+</head>
+<body id="body">
+  <header>
+  	<p><i class="fa fa-globe fa-2x"></i>hi!! I Am Siva</p>
+  </header>
+  <a href="#" class="fa-barss" id="fa-barsss" onclick ="navo(this)"><i class="fa fa-bars fa-2x"></i></a>
+  <nav id="hidden">
+    <li><a onclick="home(this)" href="" title="Welcome to home" id="homeactive">Home</a></li>
+    <li><a onclick="about(this)" href="#" title="About me">About</a></li>
+    <li><a href="#" onclick="servicess(this)" title="see my services">Services</a></li>
+    <li><a href="family.html"  title="see my Projects">Family</a></li>
+    <li><a onclick="contact(this)" href="#" title="my contact">Contact</a></li>
+  </nav>
+  <div class="homert" id="homert">
+    <i class="fa fa-user-circle fa-5x fa-spin"></i>
+    <ul class="homebl">
+      <li><a href="#" title="9344015965" onclick="phone()"><i class="fa fa-phone-square "></i></a></li>
+      <li><a href="#" onclick="navo1(this)"><span class="contact">Contact</span></a>
+        <ul class="dropdownbox1" id="dropdownbox1">
+          <li class="dropdown1"><a href="https://www.facebook.com/profile.php?id=100016422907710" class="fa fa-facebook drop1"><i><i/></a></li>
+          <li class="dropdown1"><a href="https://www.instagram.com/call_me_as_dexter/?hl=en" class="fa fa-instagram drop1"><i><i/></a></li>
+          <li class="dropdown1"><a href="" class="fa fa-github drop1"><i><i/></a></li>
+          <li class="dropdown"><a href="#" onclick="mail()" title="siva010928@gmail.com" class="fa fa-google drop"><i><i/></a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div id="about">
+  	<section class="about2">
+  		<p class="aboutname">Name:Siva Prakash K</p>
+  		<p class="aboutage">Age:19</p>
+  		<p class="aboutsex">Sex:Male</p>
+  		<p class="aboutprofession">Profession:Web Developer</p> 		
+  	</section>
+  	<section class="about2">
+  		<img src="img/about/IMG_0794.jpg" alt="sorry not supported">
+  	</section>
+  	<section class="skill">
+  		<h2>skills</h2>
+  		<p>HTML</p>
+  		<div class="container">
+  			<div class="skills html">80%</div>
+  		</div>
+  		<p>CSS</p>
+  		<div class="container">
+  			<div class="skills css">80%</div>
+  		</div>
+  		<p>JAVA</p>
+  		<div class="container">
+  			<div class="skills java ">80%</div>
+  		</div>
+  		<p>PHP</p>
+  		<div class="container">
+  			<div class="skills php">80%</div>
+  		</div>
+  	</section>
+  </div>
+  <div id="services">
+  	<h2> What I Offer!</h2>
+  	<button type="button" onclick="services(this)">services</button><span id="double">Click to open</span>
+  	<section id="offers">
+  		<ul>
+  			<li>Photo Editing</li>
+  			<li>Vedio Editing</li>
+  			<li>Web Developing</li>
+  		</ul>
+  	</section>
+  	<section id="servblw">
+  		<ul>
+  			<li>No of Projects: <span>10</span><br/><br/><i class="fa fa-tasks fa-2x"></i></li>
+  			<li>Ongoing: <span>10</span><br/><br/><i class="fa fa-rocket fa-2x"></i></li>
+  			<li>Completed:<span>10</span><br/><br/><i class="fa fa-list-alt fa-2x"></i></li>
+  			<li>Failures:<span>10</span><br/><br/><i class="fa fa-bug fa-2x"></i></li>
+  			<li>Sucess:<span>10</span><br/><br/><i class="fa fa-thumbs-up fa-2x"></i></li>
+  		</ul>
+  	</section>
+  </div>
+  <div id="contact">
+    <h2>Details</h2>
+    <section id="contactform">
+      <form  onsubmit="submitt()">
+        <label>Name:<input type="text" id="name" placeholder="Siva Prakash" name="name"></label><br/>
+        <label>Email:<input type="Email" id="email" placeholder="abc@gmail.com" name="email" required></label><br/>
+        <label>Phone:<input type="Number" id="number" placeholder="9842198970"  name="number" min="1111111111" max="9999999999" required><br/><input type="submit" value="Submit" id="submit" name="submit">
+        </label>
+      </form>
+    </section>
+  </div>
+</body>
+<footer id="footer">
+  <p>Designed by @SivaPrakash</p>
+</footer>
+</html>
