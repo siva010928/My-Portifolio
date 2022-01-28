@@ -1,4 +1,4 @@
-### Population Tracker 👋
+### Simple Portifolio 👋
 A small project done learning frontend(HTML,CSS,Javasript) library...
 
 ## Technologies I've worked with :
